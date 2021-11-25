@@ -1,0 +1,21 @@
+.form-group {
+    font-size: x-large;
+    justify-content: center;
+    color: rgb(98, 150, 218);
+    font-weight: bolder;
+    text-align: center;
+    position: static;
+    letter-spacing: 2px;
+    padding: 10px 12px;
+    margin: 3px 2px;
+    border: none;
+}
+
+label {
+    font-size: x-large;
+}
+.container {
+    background-color: none;
+    justify-content: center;
+    position: relative;
+}

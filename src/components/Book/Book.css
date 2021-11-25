@@ -1,0 +1,88 @@
+.app__container {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.infomation {
+  text-align: left;
+  justify-items: left;
+  font-size: 20px;
+  font-style: normal;
+}
+  
+.h2 {
+    font-style: initial;
+    font-size: 25px;
+    font-weight: bolder;
+}
+  
+.container__book {
+    display: grid;
+    grid-template-columns: 20% 78%;
+    grid-column-gap: 20px;
+}
+.container__book .option {
+    text-align: left;
+}
+.container__book .option h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    position: relative;
+}
+.container__book .option ul li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: darkgrey;
+}
+.container__book .option ul li a {
+    width: 100%;
+    display: block;
+    color: rgb(31, 30, 30);
+}
+.container__book .option h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #000;
+}
+.card__item {
+    display: flex;
+    margin: 10px 0;
+}
+.card__item .card__img img {
+    width: 120px;
+    height: 180px;
+  }
+.card__item .card__info {
+    margin-left: 50px;
+    text-align: left;
+}
+.card__item .card__info h2 {
+    font-size: 18px;
+    color: black;
+}
+.card__item .card__info h3 {
+    color: rgb(65, 65, 65);
+}
+
+.details__book {
+  display: flex;
+}
+.details__book .details__img {
+  margin-right: 15px;
+  position: relative;
+  max-width: 120px;
+  width: 100%;
+}
+.details__book .details__img img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  object-fit: contain;
+}
